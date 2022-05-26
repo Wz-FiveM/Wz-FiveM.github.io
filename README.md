@@ -1,1 +1,1 @@
-# Wz-FiveM.github.io
+# ocs-framework Wiki
