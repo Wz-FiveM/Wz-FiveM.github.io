@@ -1,10 +1,2 @@
-# Create Menu
-
-- Create Menu
-    - [Create a menu](#create-menu)
-    - [Settings available](/docs/{{version}}/menu-settings)
-    
-<a name="create-menu"></a>
-### Create a menu
-
-To create your menu we will use the [RMenu](/docs/{{version}}/rmenu) utility provided with RageUI, if you want to understand how it works I invite you to check by yourself on the documentation.
+#Documentation Ocs_framework
+La documentation n’est pas terminée elle sera souvent à jour hésiter pas à Star le repo pour être au courant des mises à jour
