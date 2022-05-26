@@ -15,6 +15,8 @@ local Job = NCS.getPlayerJob()
 local pPos = NCS.getPlayerPos()
 ```
 # Spawn Veh
+```lua
+NCS.spawnVehicle(model, position, heading, cb, inNetwork)
 | Instructions    | Screenshot |
 |:----------------|-----------:|
-| [!INCLUDE [Create cosmos db table step 1](./includes/create-table-dotnet/create-cosmos-table-1.md)] | :::image type="content" source="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-1-240px.png" alt-text="A screenshot showing how to use the search box in the top tool bar to find your Cosmos DB account." lightbox="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-1.png":::           |
+| [!INCLUDE [Create cosmos db table step 1](./includes/create-table-dotnet/create-cosmos-table-1.md)] | |
