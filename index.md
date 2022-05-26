@@ -17,6 +17,7 @@ local pPos = NCS.getPlayerPos()
 # Spawn Veh
 ```lua
 NCS.spawnVehicle(model, position, heading, cb, inNetwork)
-| Instructions    | Screenshot |
-|:----------------|-----------:|
-| [!INCLUDE [Create cosmos db table step 1](./includes/create-table-dotnet/create-cosmos-table-1.md)] | |
+| Header 1  | Header 2            | Header 3  |
+| --------- | ------------------- | --------- |
+| Some data |                     | Cell 3    |
+| data      | Some long data here | more data | 
