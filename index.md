@@ -6,11 +6,11 @@ La documentation sera totalement finit à la sortie du framework
 # GetJob
 
 ```lua
-local Job = Ocs:getPlayerJob()
+local Job = Ocs.getPlayerJob()
 ```
 
 # GetPosition
 
 ```lua
-local pPos = Ocs:getPlayerPos()
+local pPos = Ocs.getPlayerPos()
 ```
