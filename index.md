@@ -24,5 +24,12 @@ NCS.spawnVehicle(model, position, heading, cb, inNetwork)
 | model    | Hash ou "nom"                 | GetHashKey("sultan") |
 | position | Position du spawn du véhicule | vector3(0,0,0)       |
 | heading  | Heading du spawn du véhicule  | 150.0                |
-| cb       | Callback                      | function(vehicule)   |
+| cb       | Callback                      | function(vehicle)   |
+```
+
+ #### Exemple
+```lua
+NCS.spawnVehicle("sultan", vector3(0,0,0), 150.0, function(vehicle)
+    FreezeEntityPosition(vehicle, true)
+end)
 ```
