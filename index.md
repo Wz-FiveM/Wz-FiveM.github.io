@@ -17,6 +17,7 @@ local pPos = NCS.getPlayerPos()
 # Spawn Veh
 ```lua
 NCS.spawnVehicle(model, position, heading, cb, inNetwork)
+```
 | Header 1  | Header 2            | Header 3  |
 | --------- | ------------------- | --------- |
 | Some data |                     | Cell 3    |
