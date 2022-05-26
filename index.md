@@ -1,16 +1,16 @@
 
-## Documentation OCS Framework
+## Documentation NCS Framework
 
 La documentation sera totalement finit à la sortie du framework
 
 # GetJob
 
 ```lua
-local Job = Ocs.getPlayerJob()
+local Job = NCS.getPlayerJob()
 ```
 
 # GetPosition
 
 ```lua
-local pPos = Ocs.getPlayerPos()
+local pPos = NCS.getPlayerPos()
 ```
