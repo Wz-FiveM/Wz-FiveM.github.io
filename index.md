@@ -24,4 +24,3 @@ NCS.spawnVehicle(model, position, heading, cb, inNetwork)
 | position | Position du spawn du véhicule | vector3(0,0,0)       |
 | heading  | Heading du spawn du véhicule  | 150.0                |
 | cb       | Callback                      | function(vehicule)   |
-| inNetwork| Si le véhicule doit être dans le réseau | true                 |
