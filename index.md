@@ -25,3 +25,7 @@ NCS.spawnVehicle("sultan", vector3(0,0,0), 150.0, function(vehicle)
     FreezeEntityPosition(vehicle, true)
 end)
 ```
+
+|Name|
+|----|
+|Test|
