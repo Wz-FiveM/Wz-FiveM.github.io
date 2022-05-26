@@ -26,10 +26,11 @@ NCS.spawnVehicle("sultan", vector3(0,0,0), 150.0, function(vehicle)
 end)
 ```
 
-| Argument    | Type            |
-|-------------|-----------------|
-| modelOrHash | string & number |
-| position    | table           |
-| heading     | number          |
-| cb          | function        |
-| inNetwork   | boolean         |
+| Argument      | Type            |
+|---------------|-----------------|
+| model ou Hash | string / nombre |
+| position      | table           |
+| heading       | nombre          |
+| cb            | function        |
+| inNetwork     | oui / non       |
+
