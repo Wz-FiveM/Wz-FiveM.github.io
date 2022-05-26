@@ -8,3 +8,9 @@ La documentation sera totalement finit à la sortie du framework
 ```lua
 local Job = Ocs:getPlayerJob()
 ```
+
+# GetPosition
+
+```lua
+local pPos = Ocs:getPlayerPos()
+```
