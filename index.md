@@ -15,15 +15,8 @@ local Job = NCS.getPlayerJob()
 local pPos = NCS.getPlayerPos()
 ```
 # Spawn Veh
----
-title: 'Quickstart: Table API with .NET - Azure Cosmos DB'
-description: This quickstart shows how to access the Azure Cosmos DB Table API from a .NET application using the Azure.Data.Tables SDK
-author: DavidCBerry13
-ms.service: cosmos-db
-ms.subservice: cosmosdb-table
-ms.devlang: csharp
-ms.topic: quickstart
-ms.date: 09/26/2021
-ms.author: daberry
-ms.custom: devx-track-csharp, mode-api, devx-track-azurecli
----
+| Instructions    | Screenshot |
+|:----------------|-----------:|
+| [!INCLUDE [Create cosmos db table step 1](./includes/create-table-dotnet/create-cosmos-table-1.md)] | :::image type="content" source="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-1-240px.png" alt-text="A screenshot showing how to use the search box in the top tool bar to find your Cosmos DB account." lightbox="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-1.png":::           |
+| [!INCLUDE [Create cosmos db table step 2](./includes/create-table-dotnet/create-cosmos-table-2.md)] | :::image type="content" source="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-2-240px.png" alt-text="A screenshot showing the location of the Add Table button." lightbox="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-2.png":::           |
+| [!INCLUDE [Create cosmos db table step 3](./includes/create-table-dotnet/create-cosmos-table-3.md)] | :::image type="content" source="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-3-240px.png" alt-text="A screenshot showing how to New Table dialog box for an Cosmos DB table." lightbox="./media/create-table-dotnet/azure-portal-create-cosmos-db-table-api-3.png":::           |
