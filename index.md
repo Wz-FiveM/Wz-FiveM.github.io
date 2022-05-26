@@ -1,7 +1,7 @@
 
 ## Documentation OCS Framework
 
-La documentation n'est pas terminée
+La documentation sera totalement finit quand le framework sortira
 
 # GetJob
 
