@@ -18,9 +18,11 @@ local pPos = NCS.getPlayerPos()
 ```lua
 NCS.spawnVehicle(model, position, heading, cb, inNetwork)
 ```
+```md
 | Nom      | instruction                   | Exemple              |
 |----------|-------------------------------|----------------------|
 | model    | Hash ou "nom"                 | GetHashKey("sultan") |
 | position | Position du spawn du véhicule | vector3(0,0,0)       |
 | heading  | Heading du spawn du véhicule  | 150.0                |
 | cb       | Callback                      | function(vehicule)   |
+```
