@@ -1,36 +1,41 @@
+## Documentation RedFramework V2.0
 
-## Documentation NCS Framework
-
-La documentation sera totalement finit à la sortie du framework
-
-# GetJob
+# Import Libs Client and Server Side
 
 ```lua
-local Job = NCS.getPlayerJob()
+local RedFramework = exports["redFrameworkV2"]
 ```
 
-# GetPosition
+# Server Side
+
+# GetPlayer
+```lua
+local player = RedFramework.getPlayer(playerId)
+```
 
 ```lua
-local pPos = NCS.getPlayerPos()
+local job = player.getJob()
 ```
-# Spawn Veh
 ```lua
-NCS.spawnVehicle(model, position, heading, cb, inNetwork)
+local inventory = player.getInventory()
 ```
+```lua
+local accounts = player.getAccounts()
+```
+```lua
+local group = player.getGroup()
+```
+
 
 Exemple
 ```lua
-NCS.spawnVehicle("sultan", vector3(0,0,0), 150.0, function(vehicle)
-    FreezeEntityPosition(vehicle, true)
+RegisterCommand('getPlayerInventory', function(source, args)  
+    local player = RedFramework.getPlayer(source)
+    local inventory = player.getInventory()
+    print(json.encode(inventory.data))
 end)
 ```
 
-| Argument      | Type            |
-|---------------|-----------------|
-| model ou Hash | string / nombre |
-| position      | table           |
-| heading       | nombre          |
-| cb            | function        |
-| inNetwork     | oui / non       |
-
+| Argument           | Type   |
+|--------------------|--------|
+| playerID or source | number |
