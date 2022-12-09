@@ -3,39 +3,103 @@
 # Import Libs Client and Server Side
 
 ```lua
-local RedFramework = exports["redFrameworkV2"]
+local RedFW = exports["redFrameworkV2"]
 ```
 
 # Server Side
 
-# GetPlayer
 ```lua
-local player = RedFramework.getPlayer(playerId)
+local player = RedFW.getPlayer(playerId)
 ```
 
 ```lua
-local job = player.getJob()
+player.getJob()
 ```
 ```lua
-local inventory = player.getInventory()
+player.getInventory()
 ```
 ```lua
-local accounts = player.getAccounts()
+player.getAccounts()
 ```
 ```lua
-local group = player.getGroup()
+player.getGroup()
 ```
 
 
 Exemple
 ```lua
 RegisterCommand('getPlayerInventory', function(source, args)  
-    local player = RedFramework.getPlayer(source)
+    local player = RedFW.getPlayer(source)
     local inventory = player.getInventory()
     print(json.encode(inventory.data))
 end)
 ```
+# Server Functions
+```lua
+---@param message: string
+---@param type: string
+RedFW.makeTrace(message, type)
+```
+```lua
+---@param serverId: number
+RedFW.getIdentifier(serverId)
+```
+```lua
+---@return: table
+RedFW.getAllPlayers()
+```
+```lua
+---@param name: string
+---@param callback: function
+---@param forStaff: boolean
+RedFW.registerCommand(name, callback, forStaff)
+```
 
-| Argument           | Type   |
-|--------------------|--------|
-| playerID or source | number |
+# Client Side
+
+```lua
+---@return number
+RedFW.getCash()
+```
+```lua
+---@return number
+RedFW.getBank()
+```
+```lua
+---@return table
+RedFW.getJob()
+```
+```lua
+---@return table
+RedFW.getInventory()
+```
+```lua
+---@return table
+RedFW.getAccounts()
+```
+```lua
+---@return table
+RedFW.getGroup()
+```
+```lua
+---@return number
+RedFW.getBlackMoney()
+```
+```lua
+---@return table
+RedFW.getSkin()
+```
+```lua
+---@param skinTable table
+---@return void
+RedFW.loadSkin(skinTable)
+```
+```lua
+RedFW.saveSkin()
+```
+```lua
+---@param key string
+---@param value number
+---@return void
+RedFW.changerSkinKey(key, value)
+```
